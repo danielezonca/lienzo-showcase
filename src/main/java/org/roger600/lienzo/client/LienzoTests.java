@@ -56,12 +56,7 @@ public class LienzoTests implements EntryPoint {
         for ( final MyLienzoTest test : TESTS ) {
 
             final Button button = new Button( test.getClass().getSimpleName() );
-            button.addClickHandler( new ClickHandler() {
-                @Override
-                public void onClick( ClickEvent clickEvent ) {
-                    createPanelForTest( test );
-                }
-            } );
+            button.addClickHandler(clickEvent -> createPanelForTest(test ));
 
             addButton( button );
 
@@ -85,7 +80,7 @@ public class LienzoTests implements EntryPoint {
         final LienzoPanel panel = new LienzoPanel(WIDE,
                                                   HIGH);
         applyGrid( panel );
-        final Layer layer = new Layer();
+        final SimpleGrid.SimpleGridLayer layer = new SimpleGrid.SimpleGridLayer();
 
         testsPanel.add( panel );
         layer.setTransformable(true);

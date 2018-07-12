@@ -45,7 +45,7 @@ class SimpleGrid extends BaseGridWidget {
         model.appendColumn(new SimpleGridColumn(new SimpleHeaderMetaData("T"), new SimpleGridColumnRender(), 100));
         model.appendColumn(new SimpleGridColumn(new SimpleHeaderMetaData(""), new SimpleGridColumnRender(), 100));
         model.appendColumn(new SimpleGridColumn(new SimpleHeaderMetaData("Given"), new SimpleGridColumnRender(), 100));
-        model.appendColumn(new SimpleGridColumn(new SimpleHeaderMetaData("Expect"), new SimpleGridColumnRender(), 100));
+        model.appendColumn(new SimpleGridColumn(new SimpleHeaderMetaData("Puppa"), new SimpleGridColumnRender(), 100));
 
         model.appendRow(new SimpleGridRow());
         model.appendRow(new SimpleGridRow());
