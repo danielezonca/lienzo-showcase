@@ -6,7 +6,7 @@ public class SimpleGridTests implements MyLienzoTest {
 
     @Override
     public void test(Layer layer) {
-        final SimpleGrid simpleGrid = new SimpleGrid(new SimpleGrid.SimpleGridModel(), new SimpleGrid.SimpleGridLayer(), new SimpleGrid.SimpleGridRender());
+        final SimpleGrid simpleGrid = new SimpleGrid(new SimpleGrid.SimpleGridModel(), (SimpleGrid.SimpleGridLayer) layer, new SimpleGrid.SimpleGridRender());
         layer.add(simpleGrid);
     }
 
