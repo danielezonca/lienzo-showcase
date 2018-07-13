@@ -76,7 +76,7 @@
     <outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</outputDirectory>
     <resources>
       <resource>
-        <directory>/home/gcardosi/gcardosi/Developing/git/lienzo-showcase/src/main/resources</directory>
+        <directory>${project.basedir}/src/main/resources</directory>
       </resource>
       <resource>
         <directory>src/main/webapp/</directory>
