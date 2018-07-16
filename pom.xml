@@ -4,7 +4,7 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.roger600</groupId>
+  <groupId>org.kie</groupId>
   <artifactId>my-lienzo-grid-showcase</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>Lienzo Grid Showcase</name>
@@ -106,7 +106,7 @@
         <configuration>
           <runTarget>LienzoTests.html</runTarget>
           <modules>
-            <module>org.roger600.lienzo.LienzoTests</module>
+            <module>org.kie.grid.showcase.LienzoTests</module>
           </modules>
           <compileSourcesArtifacts>
             <compileSourcesArtifact>org.kie:lienzo-grid</compileSourcesArtifact>
